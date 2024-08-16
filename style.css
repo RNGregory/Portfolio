@@ -1,0 +1,67 @@
+/* General Portfolio Styling */
+#portfolio {
+    padding: 40px;
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff;
+}
+
+#portfolio h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Filter Buttons */
+.portfolio-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.portfolio-filter button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.portfolio-filter button.active {
+    background-color: #f4b400; /* Highlight the active filter */
+}
+
+.portfolio-filter button:hover {
+    background-color: #555;
+}
+
+/* Portfolio Items */
+.portfolio-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portfolio-item {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    width: 280px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.portfolio-item h3 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.portfolio-item p {
+    color: #bbb;
+    font-size: 14px;
+}
